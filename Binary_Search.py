@@ -5,12 +5,9 @@ Created on Fri Jan 14 10:33:50 2022
 @author: dcsem
 """
 
-# Time complexity:
-#     O(log n)
-
 def bin_search(items, val):
     
-    """Implementation of a Binary Search algorithm using pointers for first and
+    """An implementation of Binary Search algorithm using pointers for first and
         last item in the sequence, that takes logarithmic time O(log n)."""
     
     first = 0
